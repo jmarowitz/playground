@@ -1,0 +1,36 @@
+$neatorange:#f47920;
+$neatgrey:#77787b;
+$neatblue:#0096D3;
+
+$neatfont: 'Gotham SSm A','Gotham SSm B', "Gotham", "proxima-nova", "Helvetica Neue", Helvetica,Arial,sans-serif;
+$font-family-sans-serif: $neatfont;
+
+@mixin neat-padding{
+	padding:50px 20px;
+}
+
+@mixin proxima-thin{ 
+font-family: "proxima-nova",sans-serif;
+font-style: normal;
+font-weight: 100; }
+
+@mixin proxima-normal{ 
+font-family: "proxima-nova",sans-serif;
+font-style: normal;
+font-weight: 300; }
+
+@mixin proxima-bold{ 
+font-family: "proxima-nova",sans-serif;
+font-style: normal;
+font-weight: 800; }
+
+$screen-lg-min: 1182px;
+$screen-md-min: 992px;
+$screen-sm-min: 768px;
+$screen-xs-min: 400px;
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}

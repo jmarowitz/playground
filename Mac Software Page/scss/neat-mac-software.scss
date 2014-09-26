@@ -1,0 +1,462 @@
+@import "bootstrap";
+@import "compass";
+@import "bits";
+
+.navbar-brand {
+padding: 0;
+}
+
+
+#topmenu{ margin-bottom: 0; }
+
+
+
+.benefits-hero{
+
+background: url(http://neat-marketing.s3.amazonaws.com/solutions/web-images/benefits-hero.jpg)no-repeat top center;
+background-size: cover;
+
+
+
+
+
+ 
+h2{ 
+			font-weight: 200;
+			font-size: 36px;
+			color:#fff;
+			margin:0;
+			padding:20px;
+}
+
+span{
+	color:#fff;
+	font-size: 20px;
+}
+
+
+
+}
+ 
+.rightcell {
+	padding-left:15px;
+}
+.center {
+	margin:0 auto;
+} 
+
+.neat-mac-sofware-hero{
+
+background-size: cover;
+background-color: $neatorange;
+padding: 10px;
+text-align:left;
+font-weight: 200;
+ 
+	h2{ 
+		font-weight: 200;
+		font-size: 36px;
+		color:#fff;
+		margin:0;
+		padding:20px;
+	}
+	h2,h3,h4 {
+		color:#fff !important;
+		text-align:left;
+	}
+	p {
+		color:#fff;
+		text-align:left;
+	}
+
+	span{
+		color:#fff;
+		font-size: 20px;
+	}
+
+}
+
+
+.white-bg{
+	background-color: #fff;
+}
+
+
+.grey-bg{
+	background-color: #F4F4F6;
+}
+
+.neat-mac-software-heading-text-area{
+	
+	padding:5px 0px !important;
+	margin-top: 40px;
+	margin-bottom:30px;
+			@include make-lg-column(12);
+			@include make-md-column(12);
+			@include make-sm-column(12);
+		
+
+	p {
+		color:$neatgrey;  
+		font-size: 16px !important;
+		padding:5px 30px !important;
+		font-family: "proxima-nova",sans-serif;
+  		font-weight: normal;
+  		width:65%;
+  		margin:auto;
+  		line-height:180%;
+	}				
+
+	h2{
+		color:$neatorange;	
+		font-size: 24px;
+		font-weight: 200;
+	}
+	h2,h3,h4 {
+		color:$neatorange;
+	}
+	span{
+		color:$neatgrey; 
+		font-size: 14px;
+		
+		font-family: "proxima-nova",sans-serif;
+  		font-weight: 200;
+			}
+	ul li {
+		text-align:left;
+		margin-bottom:10px;
+		color:#fff;
+	}
+
+}
+.neat-mac-software-text-area2{
+	
+	padding:5px 0px !important;
+	margin-top: 30px;
+	margin-bottom:10px;
+			@include make-lg-column(6);
+			@include make-md-column(6);
+			@include make-sm-column(6);
+		
+	p.heading {
+		color:$neatgrey;  
+		font-size: 16px !important;
+		padding:5px 30px !important;
+		font-family: "proxima-nova",sans-serif;
+  		font-weight: 200;
+	}				
+	p {
+		color:$neatgrey;  
+		font-size: 16px !important;
+		padding:5px 30px !important;
+		font-family: "proxima-nova",sans-serif;
+  		font-weight: normal;
+  		width:65%;
+  		margin:auto;
+  		line-height:180%;
+	}	
+	h2{
+		color:$neatorange;	
+		font-size: 24px;
+		font-weight: 200;
+	}
+	h2,h3,h4 {
+		color:#fff;
+	}
+
+	span{
+		color:$neatgrey; 
+		font-size: 14px;
+		
+		font-family: "proxima-nova",sans-serif;
+  		font-weight: 200;
+			}
+	ul {
+		
+	}
+	ul li {
+		text-align:left;
+		margin-bottom:10px;
+		font-size: 16px;
+		color:#fff; 
+		font-family: "proxima-nova",sans-serif;
+  		font-weight: 200;
+  		padding-left: 0px;
+	}
+	ul li >a {
+
+	}
+
+}
+.neat-mac-software-text-areatop{
+	
+	padding:5px 0px !important;
+	margin-top: 30px;
+	margin-bottom:10px;
+			@include make-lg-column(6);
+			@include make-md-column(6);
+			@include make-sm-column(6);
+		
+	p.heading {
+		color:$neatgrey;  
+		font-size: 16px !important;
+		padding:5px 30px !important;
+		font-family: "proxima-nova",sans-serif;
+  		font-weight: 200;
+	}				
+	p {
+		color:#fff;  
+		font-size: 16px !important;
+		font-family: "proxima-nova",sans-serif;
+  		font-weight: normal;
+  		line-height:180%;
+	}	
+	h2{
+		color:$neatorange;	
+		font-size: 24px;
+		font-weight: 200;
+	}
+	h2,h3,h4 {
+		color:#fff;
+	}
+
+	span{
+		color:$neatgrey; 
+		font-size: 14px;
+		
+		font-family: "proxima-nova",sans-serif;
+  		font-weight: 200;
+			}
+	ul {
+		
+	}
+	ul li {
+		text-align:left;
+		margin-bottom:10px;
+		font-size: 16px;
+		color:#fff; 
+		font-family: "proxima-nova",sans-serif;
+  		font-weight: 200;
+  		padding-left: 0px;
+	}
+	ul li >a {
+
+	}
+
+}
+.neat-mac-software-text-area3{
+	
+	padding:5px 0px !important;
+	margin-top: 30px;
+	margin-bottom:10px;
+			@include make-lg-column(4);
+			@include make-md-column(4);
+			@include make-sm-column(4);
+		
+	p.heading {
+		color:$neatgrey;  
+		font-size: 16px !important;
+		padding:5px 30px !important;
+		font-family: "proxima-nova",sans-serif;
+  		font-weight: 200;
+	}
+	p {
+		color:$neatgrey;  
+		font-size: 16px !important;
+		font-family: "proxima-nova",sans-serif;
+  		font-weight: normal;
+  		margin:auto;
+  		line-height:180%;
+	}					
+
+	h2{
+		color:$neatorange;	
+		font-size: 24px;
+		font-weight: 200;
+	}
+	h2,h3,h4 {
+		color:$neatorange;
+	}
+
+	span{
+		color:$neatgrey; 
+		font-size: 14px;
+		
+		font-family: "proxima-nova",sans-serif;
+  		font-weight: 200;
+			}
+	ul {
+		list-style:none;
+	}
+	ul li {
+		text-align:left;
+		margin-bottom:10px;
+		font-size: 16px;
+		color:$neatgrey; 
+		font-family: "proxima-nova",sans-serif;
+  		font-weight: 200;
+  		padding-left: 20px;
+		background-image: url(../images/neat-bullets.png);
+		background-repeat: no-repeat;
+	}
+	ul li >a {
+
+	}
+
+}
+
+
+
+
+.neat-mac-software-text-area{
+	
+	padding:5px 0px !important;
+	margin-top: 30px;
+	margin-bottom:10px;
+			@include make-lg-column(6);
+			@include make-md-column(6);
+			@include make-sm-column(6);
+		
+	p.heading {
+		color:$neatgrey;  
+		font-size: 16px !important;
+		padding:5px 30px !important;
+		font-family: "proxima-nova",sans-serif;
+  		font-weight: 200;
+	}		
+	p {
+		color:$neatgrey;  
+		font-size: 16px !important;
+		font-family: "proxima-nova",sans-serif;
+  		font-weight: normal;
+  		margin:auto;
+  		line-height:180%;
+	}			
+
+	h2{
+		color:$neatorange;	
+		font-size: 24px;
+		font-weight: 200;
+	}
+	h2,h3,h4 {
+		color:$neatorange;
+	}
+	span{
+		color:$neatgrey; 
+		font-size: 14px;
+		
+		font-family: "proxima-nova",sans-serif;
+  		font-weight: 200;
+			}
+	ul {
+		list-style:none;
+		padding-left:0px;
+	}
+	ul li {
+		text-align:center;
+		margin-bottom:10px;
+		margin-left:0px!important;
+		font-size: 16px;
+		color:$neatgrey; 
+		font-family: "proxima-nova",sans-serif;
+  		font-weight: 200;
+  		padding-left: 20px;
+		background-image: url(../images/neat-bullets.png);
+		background-repeat: no-repeat;
+	}
+	ul li >a {
+
+	}
+
+}
+
+
+.btn-mac-software{
+	background: #0095d3; /* Old browsers */
+background: -moz-linear-gradient(top,  #0095d3 0%, #0077a8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0095d3), color-stop(100%,#0077a8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #0095d3 0%,#0077a8 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #0095d3 0%,#0077a8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #0095d3 0%,#0077a8 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #0095d3 0%,#0077a8 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0095d3', endColorstr='#0077a8',GradientType=0 ); /* IE6-9 */
+border:2px solid #fff !important;
+border-radius: 0px !important;
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
+-moz-box-shadow:    0px 0px 5px 0px rgba(0, 0, 0, 0.6);
+box-shadow:         0px 0px 5px 0px rgba(0, 0, 0, 0.6);
+}
+
+.btn-mac-software:hover {
+background: #0077a8; /* Old browsers */
+background: -moz-linear-gradient(top,  #0077a8 0%, #0095d3 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0077a8), color-stop(100%,#0095d3)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #0077a8 0%,#0095d3 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #0077a8 0%,#0095d3 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #0077a8 0%,#0095d3 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #0077a8 0%,#0095d3 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0077a8', endColorstr='#0095d3',GradientType=0 ); /* IE6-9 */
+border:2px solid #fff;
+border-radius: 0px;
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
+-moz-box-shadow:    0px 0px 5px 0px rgba(0, 0, 0, 0.6);
+box-shadow:         0px 0px 5px 0px rgba(0, 0, 0, 0.6);
+}
+
+
+.plan-pricing-text-area{
+	
+	padding:5px 0px !important;
+	margin-top: 40px;
+	margin-bottom:80px;
+			@include make-lg-column(4);
+			@include make-md-column(4);
+			@include make-sm-column(4);
+		
+	p {
+		color:$neatgrey;  
+		font-size: 14px;
+		padding:5px 30px !important;
+		font-family: "proxima-nova",sans-serif;
+  		font-weight: 200;
+	}				
+
+	h2{
+		color:$neatorange;	
+		font-size: 24px;
+		font-weight: 200;
+	}
+
+	span{
+		color:$neatgrey; 
+		font-size: 14px;
+		
+		font-family: "proxima-nova",sans-serif;
+  		font-weight: 200;
+			}
+
+}
+
+
+
+.plan-pricing-image-area{
+		@include make-lg-column(4);
+		@include make-md-column(4);
+		@include make-sm-column(4);
+					
+
+}
+
+
+.benefits{
+	padding:50px 0px;
+}
+
+
+
+
+.techspecs{
+@include make-lg-column(12);
+
+					
+}
